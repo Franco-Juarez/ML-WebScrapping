@@ -1,0 +1,42 @@
+### GET MENSAJE DE BIENVENIDA
+GET http://localhost:3000
+Origin: http://localhost:5173
+
+
+### GET ALL PRODUCTS
+http://localhost:3000/api/products/
+Origin: http://localhost:5173
+
+
+### GET PRODUCT BY ID
+http://localhost:3000/api/products/3efa50ce-99f6-4f85-9102-591427203ab7
+Origin: http://localhost:5173
+
+### GET SEARCHID
+http://localhost:3000/api/product_searchId/arturia-microbrute
+Origin: http://localhost:5173
+
+### GET ALL SEARCHIDs
+http://localhost:3000/api/product_searchId/
+Origin: http://localhost:5173
+
+
+### GET 10 MOST EXPENSIVE PRODUCTS
+
+### GET 10 CHEAPEST PRODUCTS 
+http://localhost:3000/api/products/cheapest-products/ABFA861C98CA431FBF89DDA5CCB7D28B
+Origin: http://localhost:5173
+
+
+### CREATE NEW SEARCH
+POST http://localhost:3000/api/search_product/arturia-microbrute
+Origin: http://localhost:5173
+
+### GET PRODUCTS SEARCH RESULTS
+GET http://localhost:3000/api/search_product/ABFA861C98CA431FBF89DDA5CCB7D28B
+Origin: http://localhost:5173
+
+### DELETE SEARCH
+DELETE http://localhost:3000/api/search_product/034AFDB92C7E4AE2A0A276E8A6FE6468
+Origin: http://localhost:5173
+
